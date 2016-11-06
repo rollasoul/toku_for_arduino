@@ -1,10 +1,10 @@
-# toku
+## toku
 
-prerequisites
+# prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
 - raspberry pi 3, usb camera, light sensor, PiNoir camera, adafruit mini-thermal printer
 
-server setup
+# server setup
 
 - install docker on remote server
 ```
@@ -34,7 +34,7 @@ client setup
 - replace the bitmapimageconvert-files with the git-repo ones
 - open the toku_pi_client.py file and replace the server address with the the address of your server (line 29 and 48)
 
-run toku
+# run toku
 
 - on server run
 ```
