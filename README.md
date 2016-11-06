@@ -28,4 +28,21 @@ docker run -it -p 12345:12345 rollasoul/toku
 ```
 
 client setup
+
 - download or clone git-repo for raspberry pi with client-script
+- follow the installation instructions on adafruit for the mini-thermal printer
+- replace the bitmapimageconvert-files with the git-repo ones
+- open the toku_pi_client.py file and replace the server address with the the address of your server (line 29 and 48)
+
+run toku
+
+- on server run
+```
+script_pi
+```
+
+- on client run 
+```
+script_pi
+```
+
