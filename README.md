@@ -2,7 +2,7 @@
 
 prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
-- raspberry pi 3, usb camera, light sensor, PiNoir camera
+- raspberry pi 3, usb camera, light sensor, PiNoir camera, adafruit mini-thermal printer
 
 server setup
 
