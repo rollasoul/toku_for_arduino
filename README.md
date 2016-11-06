@@ -22,7 +22,7 @@ docker pull rollasoul/toku
 
 ```
 
-- run docker image with open port 12345
+- run docker image with port forwarding for port 12345
 ```
 docker run -it -p 12345:12345 rollasoul/toku
 ```
