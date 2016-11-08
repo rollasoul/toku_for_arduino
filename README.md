@@ -1,5 +1,7 @@
 # T O K U
 
+Script for handwriting haiku-poems to camera input powerded by two neural networks (densecap and rnnlib). Should be run on remote server and local-client, optimised for raspberry-pi. 
+
 # prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
 - raspberry pi 3, usb camera, light sensor (or any other trigger you like), adafruit mini-thermal printer and arduino (this script is written for the uno)
