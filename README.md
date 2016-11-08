@@ -1,8 +1,8 @@
-# toku
+# T O K U
 
 # prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
-- raspberry pi 3, usb camera, light sensor, PiNoir camera, adafruit mini-thermal printer
+- raspberry pi 3, usb camera, light sensor (or any other trigger you like), adafruit mini-thermal printer
 
 # server setup
 
@@ -29,10 +29,11 @@ docker run -it -p 12345:12345 rollasoul/toku
 
 client setup
 
-- download or clone git-repo for raspberry pi with client-script
+- download or clone git-repo on client (raspberry pi or mac)
 - follow the installation instructions on adafruit for the mini-thermal printer
 - replace the bitmapimageconvert-files with the git-repo ones
 - open the toku_pi_client.py file and replace the server address with the the address of your server (line 29 and 48)
+- check all the files for correct file addresses as they are set up for /home/pi - structure
 
 # run toku
 
