@@ -1,6 +1,6 @@
 # T O K U
 
-Script for handwriting haiku-poems to camera input powered by two neural networks (densecap and rnnlib) - printing them on a mini-thermal printer. Should be run on remote server and local-client, optimised for raspberry-pi. Both networks come ready to go and trained as a docker-image for the server, the git-repo is mainly for the client side (with a few server-scripts as backup). 
+Script for handwriting haiku-poems to camera input powered by two neural networks (densecap and rnnlib) - and printing them on a mini-thermal printer. Should be run on remote server and local-client, optimised for raspberry-pi. Both networks come ready to go and trained as a docker-image for the server, the git-repo is mainly for the client side (with a few server-scripts as backup). 
 
 # prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
