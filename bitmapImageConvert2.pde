@@ -25,7 +25,7 @@ void setup() {
   rowBytes   = (img.width + 7) / 8;
   totalBytes = rowBytes * img.height;
   // Convert image to B&W, make pixels readable
-  img.filter(THRESHOLD);
+  img.filter(THRESHOLD, 0.999);
   img.loadPixels();
 
   // Open header file for output (NOTE: WILL CLOBBER EXISTING .H FILE, if any)
