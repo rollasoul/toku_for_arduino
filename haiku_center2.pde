@@ -10,6 +10,6 @@ void setup() {
 void draw() {
   int iStart = new Float(img.height/3).intValue();
   int iHeight = img.height-iStart;
-  copy(img, 0, 0,img.width,2*iStart,50,0,img.width,iHeight);
+  copy(img, 0, iStart,img.width,iHeight,90,0,img.width,iHeight);
   save("nunuimageToSave2.png");
 }
