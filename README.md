@@ -47,7 +47,6 @@ sudo apt-get update && sudo apt-get install arduino
 
 # hardware setup
 
-- make sure your printer is connected via arduino to raspberry pi (see the adafruit mini-thermal printer for correct setup)
 - check all cables and connections (camera, raspberry pi, arduino, mini-thermal printer)
 - raspberry pi needs proper wifi-connectivity to run this script
 
