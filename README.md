@@ -5,6 +5,7 @@ Script for handwriting haiku-poems to camera input powered by two neural network
 # prerequisites
 - ubuntu 16.04 server running intel xeon processors (or newer) otherwise openBLAS/torch will give you a core dumped error
 - raspberry pi 3, usb camera, light sensor (or any other trigger you like), adafruit mini-thermal printer and arduino (this script is written for the uno)
+- client (e.g. raspberry pi) has Processing and Arduino IDE installed
 
 # server setup
 
@@ -32,6 +33,16 @@ docker run -it -p 12345:12345 rollasoul/toku
 # client setup
 
 - download or clone git-repo on client (raspberry pi or mac)
+- make sure you have [Processing](https://processing.org/) and Arduino IDE  installed - otherwise do so:
+  processing for raspbian
+```
+curl https://processing.org/download/install-arm.sh | sudo sh
+```
+  arduino IDE for raspbian
+```
+sudo apt-get update && sudo apt-get install arduino
+```
+
 - follow the installation instructions on adafruit for the mini-thermal printer
 - replace the bitmapimageconvert-files with the git-repo ones
 - open the toku_pi_client.py file and replace the server address with the the address of your server (line 29 and 48)
