@@ -33,17 +33,14 @@ docker run -it -p 12345:12345 rollasoul/toku
 # client setup
 
 - download or clone git-repo on client (raspberry pi or mac)
-- make sure you have [Processing](https://processing.org/) and Arduino IDE  installed - otherwise do so:
-  processing for raspbian
+- make sure you have [Processing](https://processing.org/) and [Arduino IDE](https://www.arduino.cc/)  installed - otherwise do so:
+  processing for raspbian + arduino IDE for raspbian
 ```
 curl https://processing.org/download/install-arm.sh | sudo sh
-```
-  arduino IDE for raspbian
-```
 sudo apt-get update && sudo apt-get install arduino
 ```
 
-- follow the installation instructions on adafruit for the mini-thermal printer
+- follow the installation instructions on adafruit for the [adafruit mini-thermal printer](https://learn.adafruit.com/mini-thermal-receipt-printer/)
 - replace the bitmapimageconvert-files with the git-repo ones
 - open the toku_pi_client.py file and replace the server address with the the address of your server (line 29 and 48)
 - check all the files for correct file addresses as they are set up for /home/pi - structure
@@ -51,6 +48,7 @@ sudo apt-get update && sudo apt-get install arduino
 # hardware setup
 
 - make sure your printer is connected via arduino to raspberry pi (see the adafruit mini-thermal printer for correct setup)
+- check all cables and connections (usb, camera, raspberry pi, arduino, minit-thermal printer)
 - raspberry pi needs proper wifi-connectivity to run this script
 
 # run toku
