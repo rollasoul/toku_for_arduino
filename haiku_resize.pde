@@ -7,6 +7,6 @@ void setup() {
   img = loadImage("home/pi/toku/imageToSave1.png");
   img.resize(200, 0);
   image(img, 0, 0);
-  save("/home/pi/toku/imageToSave.png");
+  save("/home/pi/toku/imageToSave1.png");
   exit();
 }
