@@ -5,11 +5,11 @@ do
 	processing-java --sketch=/home/pi/haiku_resize --run
 	processing-java --sketch=/home/pi/haiku_center1 --run
 	processing-java --sketch=/home/pi/bitmapImageConvert1 --run
-	/home/pi/arduino-1.6.11/arduino --upload /home/pi/A_printertest_mod/A_printertest_mod.ino --port /dev/ttyACM0
+	/usr/share/applications/arduino.desktop --upload /home/pi/toku/A_printertest_mod.ino --port /dev/ttyACM0
 	processing-java --sketch=/home/pi/haiku_center2 --run
 	processing-java --sketch=/home/pi/bitmapImageConvert2 --run
-	/home/pi/arduino-1.6.11/arduino --upload /home/pi/A_printertest_mod/A_printertest_mod.ino --port /dev/ttyACM0
+	/home/pi/arduino-1.6.11/arduino --upload /home/pi/toku/A_printertest_mod.ino --port /dev/ttyACM0
 	processing-java --sketch=/home/pi/haiku_center3 --run
 	processing-java --sketch=/home/pi/bitmapImageConvert3 --run
-	/home/pi/arduino-1.6.11/arduino --upload /home/pi/A_printertest_mod/A_printertest_mod.ino --port /dev/ttyACM0
+	/home/pi/arduino-1.6.11/arduino --upload /home/pi/toku/A_printertest_mod.ino --port /dev/ttyACM0
 done
