@@ -4,7 +4,7 @@ void setup() {
   size(410, 400);
   fill(0);
   background (255, 255, 255);
-  img = loadImage("/home/pi/imageToSave1.png");
+  img = loadImage("/home/pi/toku/imageToSave1.png");
 }
 
 void draw() {
