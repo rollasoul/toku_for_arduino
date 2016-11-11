@@ -49,6 +49,7 @@ port = 12345
 s.connect((host, port))
 
 print "waiting for image"
+os.chdir('/home/pi')
 
 while True:
         i=1
