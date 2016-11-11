@@ -9,8 +9,8 @@ void setup() {
   int         pixelNum, byteNum, bytesOnLine = 99,
               x, y, b, rowBytes, totalBytes, lastBit, sum;
   println("Loading image...");
-  filename = "/home/pi/A_printertest_mod/nunuimageToSave.png";
-  img      = loadImage("/home/pi/haikucenter2/nunuimageToSave2.png");
+  filename = "/home/pi/toku/A_printertest_mod/nunuimageToSave.png";
+  img      = loadImage("/home/pi/toku/haikucenter2/nunuimageToSave2.png");
 
   // Morph filename into output filename and base name for data
   x = filename.lastIndexOf('.');
