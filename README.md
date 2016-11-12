@@ -1,6 +1,6 @@
 # T O K U
 
-If you have a raspberry pi, use the [newer version](https://github.com/rollasoul/toku) of this repo which is not using the arduino anymore. It runs a lot faster and is much easier to setup. In case you are using a mac and wanna use the mini-thermal printer to print the haikus you have to use this script. 
+If you have a raspberry pi, use the [newer version](https://github.com/rollasoul/toku) of this repo which is not using the arduino anymore. It runs a lot faster and is much easier to setup. In case you are using a mac and want use the mini-thermal printer to print the haikus you have to use this script. 
 
 Script for handwriting haiku-poems to camera input powered by two neural networks (densecap and rnnlib) - and printing them on a mini-thermal printer. Should be run on remote server and local-client, optimised for raspberry-pi. Both networks come ready to go and trained as a docker-image for the server, the git-repo is mainly for the client side (with a few server-scripts as backup). 
 
